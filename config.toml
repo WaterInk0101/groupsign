@@ -1,0 +1,80 @@
+# group_sign_plugin - 自动生成的配置文件
+# 自动在指定时间对所有非黑名单群聊执行打卡操作的MaiCore插件
+
+# 插件基本配置
+[plugin]
+
+# 配置文件版本号
+config_version = "1.5.0"
+
+# 是否启用插件
+enable = true
+
+# 插件加载后启动定时任务的延迟时间(秒)
+startup_delay = 10
+
+
+# 组件启用控制
+[components]
+
+# 是否启用打卡功能
+enable_sign = true
+
+
+# 打卡功能配置
+[sign]
+
+# 需要进行打卡的群聊列表
+groups = [""]
+
+# 打卡检查间隔(秒)
+check_interval = 1800
+
+# 每日打卡提醒时间
+reminder_time = "00:00"
+
+
+# 打卡相关消息配置
+[messages]
+
+# 打卡提醒消息
+sign_reminder = "请大家记得打卡哦~"
+
+# 打卡汇总消息
+sign_summary = "今日打卡情况："
+
+
+# 管理员权限配置（仅用户）
+[permissions]
+
+# 允许管理打卡配置的管理员QQ号（英文逗号分隔）
+admin_users = ["]
+
+
+# 打卡API配置
+[api]
+
+# 打卡API的主机地址
+host = "127.0.0.1"
+
+# 打卡API的端口号
+port = "4430"
+
+# API鉴权token，可选
+token = ""
+
+# API请求超时时间(秒)
+timeout = 10
+
+
+# 日志配置
+[logging]
+
+# 日志级别
+# 可选值: DEBUG, INFO, WARNING, ERROR
+level = "INFO"
+
+# 日志前缀
+prefix = "[GroupSign]"
+
+
