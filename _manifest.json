@@ -7,7 +7,7 @@
     "name": "WaterInk",
     "url": "https://github.com/WaterInk0101/groupsign/tree/main"
   },
-  "license": "GPL-v3.0-or-later",
+  "license": "MIT License",
   "host_application": {
     "min_version": "1.11.6"
   },
@@ -41,3 +41,4 @@
 }
 
     
+
