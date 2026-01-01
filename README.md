@@ -4,7 +4,7 @@
 
 ## 功能说明
 
-让麦麦在指定群聊中定时打卡（默认0:00，可以在 `config` 中更改 ___24小时制___）
+让麦麦在群聊中到点打卡
 
 
 ## 安装方法
@@ -18,6 +18,8 @@
 3.在napcat中创建HTTP Server  
  *host:127.0.0.1,端口4430*  
  务必与 `config` 中填写的 `host` `Prot` 一致
+<img width="778" height="1003" alt="image" src="https://github.com/user-attachments/assets/35a7cea7-8d7c-4e61-a119-0efd16400bf3" />
+
 
 ## 命令使用方法
 
