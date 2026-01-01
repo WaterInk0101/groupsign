@@ -34,7 +34,7 @@ check_interval = 1800
 reminder_time = "00:00"
 
 
-# 打卡相关消息配置
+# 打卡相关消息配置(已废弃)
 [messages]
 
 # 打卡提醒消息
@@ -48,7 +48,7 @@ sign_summary = "今日打卡情况："
 [permissions]
 
 # 允许管理打卡配置的管理员QQ号（英文逗号分隔）
-admin_users = ["]
+admin_users = [""]
 
 
 # 打卡API配置
@@ -76,5 +76,6 @@ level = "INFO"
 
 # 日志前缀
 prefix = "[GroupSign]"
+
 
 
