@@ -26,7 +26,7 @@
   /groupsign list_groups       //查看打卡群聊列表  
   /groupsign add_group 群号    //将群聊添加至打卡列表  
   /groupsign remove_group 群号 //将群聊移出打卡列表  
-  /groupsign execute 群号     //立即在群聊中执行打卡操作
+  /groupsign execute 群号      //立即在群聊中执行打卡操作
 ```  
 <img width="2064" height="273" alt="image" src="https://github.com/user-attachments/assets/eb9b5ba1-6d2d-4dee-a92f-c7e832fa32c6" />
 
