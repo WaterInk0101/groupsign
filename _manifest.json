@@ -11,7 +11,7 @@
   "host_application": {
     "min_version": "1.11.6"
   },
-  "homepage_url": "https://github.com/WaterInk0101",
+  "homepage_url": "https://github.com/WaterInk0101/groupsign",
   "repository_url": "https://github.com/WaterInk0101/groupsign",
   "keywords": ["auto-sign", "group", "timed", "blacklist"],
   "categories": ["Automation", "Utility"],
@@ -41,6 +41,7 @@
 }
 
     
+
 
 
 
