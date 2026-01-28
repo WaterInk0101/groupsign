@@ -13,34 +13,17 @@
   },
   "homepage_url": "https://github.com/WaterInk0101/groupsign",
   "repository_url": "https://github.com/WaterInk0101/groupsign",
-  "keywords": ["auto-sign", "group", "timed", "blacklist"],
+  "keywords": ["群聊", "打卡", "娱乐"],
   "categories": ["Automation", "Utility"],
   "default_locale": "zh-CN",
   "locales_path": "_locales",
-  "main": "plugin.py",
-  "plugin_info": {
-    "is_built_in": false,
-    "plugin_type": "automation",
-    "components": [
-      {
-        "type": "action",
-        "name": "group_sign",
-        "description": "定时在非黑名单群聊中执行自动打卡",
-        "activation_modes": ["scheduled"],
-        "schedule_config": "可通过config.toml设置每日打卡时间"
-      }
-    ],
-    "features": [
-      "每日定时自动群聊打卡",
-      "基于黑名单的群聊排除机制",
-      "自动获取群聊列表并过滤",
-      "打卡结果日志记录",
-      "可通过config.toml配置打卡时间和服务器信息"
-    ]
-  }
-}
+  "categories": [
+    "Group Management"
+  ]
+ }
 
     
+
 
 
 
