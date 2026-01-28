@@ -1,6 +1,6 @@
 {
   "manifest_version": 1,
-  "name": "group_sign_plugin",
+  "name": "群聊定时打卡",
   "version": "1.0.2",
   "description": "自动在指定时间对所有非黑名单群聊执行打卡操作的MaiCore插件",
   "author": {
@@ -41,6 +41,7 @@
 }
 
     
+
 
 
 
